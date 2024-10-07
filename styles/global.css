@@ -20,15 +20,21 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+span {
   margin: 0;
   padding: 0;
 }
 
 a {
   color: inherit;
+  text-underline-offset: 4px;
 }
 
 img {
   width: 100%;
+}
+
+address {
+  font-style: normal;
 }
