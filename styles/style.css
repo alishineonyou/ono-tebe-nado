@@ -74,10 +74,6 @@
     line-height: 123px;
 }
 
-.cover__description {
-    margin-top: 119px;
-}
-
 .aligned-text {
     display: block;
 }
@@ -95,6 +91,7 @@
 }
 
 .cover__description {
+    margin-top: 119px;
     display: flex;
     justify-content: space-around;
 }
