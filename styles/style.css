@@ -26,7 +26,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     list-style: circle inside;
 }
 
@@ -80,6 +80,7 @@
 
 .aligned-text_center {
     text-align: center;
+    padding-right: 35px;
 }
 
 .aligned-text_right {
@@ -156,6 +157,10 @@
     background-image: url("../images/card-lot-03.jpg");
 }
 
+.card-link {
+    text-decoration: none;
+}
+
 .card {
     padding: 51px 40px 48px;
     color: white;
@@ -169,11 +174,13 @@
     font-size: 22px;
     text-decoration: underline;
     text-transform: uppercase;
-    font-weight: 400;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
 .card__text {
     font-size: 20px;
+    line-height: 24px;
 }
 
 .lots__look-more-container {
@@ -186,7 +193,7 @@
 
 /* ========================= Lots =========================*/
 .about {
-    margin-top: 142px;
+    margin-top: 148px;
     display: grid;
     grid-column-gap: 72px;
     grid-row-gap: 6px;
@@ -225,16 +232,15 @@
     grid-column: 2 / 3;
 }
 
-.about__text span {
+.about__text p {
     font-size: 20px;
-    display: block;
-    margin-bottom: 1em;
+    margin-bottom: 26px;
 }
 
 
 /* ========================= Footer =========================*/
 .footer {
-    margin-top: 165px;
+    margin-top: 160px;
     margin-bottom: 88px;
     padding: 0 50px;
     display: grid;
@@ -256,7 +262,8 @@
 
 .footer__social-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 48px;
 }
 
 .footer__social-list-item {
