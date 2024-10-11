@@ -199,7 +199,7 @@
     grid-row-gap: 6px;
     grid-template-columns: 1fr 3fr;
     padding-top: 35px;
-    padding-right: 34px;
+    padding-right: 25px;
     padding-left: 73px;
 }
 
@@ -235,12 +235,12 @@
 .about__text p {
     font-size: 20px;
     margin-bottom: 26px;
+    line-height: 24px;
 }
-
 
 /* ========================= Footer =========================*/
 .footer {
-    margin-top: 160px;
+    margin-top: 155px;
     margin-bottom: 88px;
     padding: 0 50px;
     display: grid;
